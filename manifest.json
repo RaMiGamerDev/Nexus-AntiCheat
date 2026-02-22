@@ -1,0 +1,43 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§u§lNexus AntiCheat §r§8(§70§8.§70§8.§74§8-§ualpha§8)",
+    "description": "§uNexus §8(§7made by §uDr.hex§8) §7is a supreme anticheat for minecraft bedrock edition to fight hackers and protect your Server/Realm/World\n§cNote§8:§c beta api must be enabled in experminetal api!§r\n§7Get §uNexus AntiCheat §7at§8: §ahttps://discord.gg/QvRhTebnVu",
+    "uuid": "5b45c305-931a-4193-95a5-2d5b9fc74a17",
+    "version": [0, 0, 4],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "a6537dad-38eb-4895-8479-f2554dac1315",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "efd585fd-c2f2-4592-a298-81710689f4d0",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.6.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    }
+  ],
+  "metadata": {
+    "product_type": "addon"
+  },
+  "settings": [
+    {
+      "type": "label",
+      "text": "Play with no cheats!"
+    }
+  ]
+}
